@@ -121,20 +121,6 @@ nav {
   line-height: 150%;
 }
 
-.footer {
-  font-size: 20px;
-  font-family: var(--font-principal);
-  padding: 2em;
-  background-color: var(--honeydew);
-}
-
-.footer2 {
-  font-size: 20px;
-  font-family: var(--font-principal);
-  padding: 2em;
-  color: var(--honeydew);
-  background-color: var(--black-olive);
-}
 
 .image-feed {
   padding: 30px;
@@ -162,4 +148,81 @@ nav {
 
 .conclusao {
   font-family: var(--font-conclusao);
+}
+
+
+.text-reset {
+  text-decoration: none;
+}
+
+.btn-index {
+  background-color: var(--verde-fundo);
+  color: var(--branco);
+}
+
+.btn {
+  border-color: var(--branco);
+  color: var(--branco);
+}
+
+.btn:hover {
+  border-color: var(--branco);
+  color: var(--verde-fundo);
+  background-color: var(--branco);
+}
+
+.btn-index:hover {
+  border-color: var(--verde-fundo);
+  color: var(--verde-fundo);
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input[type=text]:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input.input-email:focus {
+  box-shadow: 0 0 10px var(--cor-fundo);
+}
+
+input.input-email-index:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input.input-email-index {
+  background-color: #EBECEE;
+}
+
+input.input-email {
+  background-color: #EBECEE;
+}
+
+input.input-telefone-index:focus {
+  box-shadow: 0 0 10px var(--verde-fundo);
+}
+
+input.input-telefone-index {
+  background-color: #EBECEE;
+}
+
+input.input-telefone {
+  background-color: #EBECEE;
+}
+
+input.input-telefone:focus {
+  box-shadow: 0 0 10px var(--cor-fundo);
+}
+
+.footer {
+  font-size: 20px;
+  font-family: var(--font-principal);
+  padding: 2em;
+  background-color: var(--honeydew);
+}
+
+.footer2 {
+  font-family: var(--font-principal);
+  padding: 2em;
+  color: var(--honeydew);
+  background-color: var(--black-olive);
 }
