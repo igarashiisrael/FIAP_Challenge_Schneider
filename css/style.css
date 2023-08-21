@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prompt&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 nav {
   margin: 0;
@@ -16,6 +16,7 @@ nav {
   --font-logo: 'Prompt', sans-serif;
   --font-principal: 'Open Sans', sans-serif;
   --font-titulo: 'Lobster', cursive;
+  --font-conclusao: 'Dosis', sans-serif;
 }
 
 .header {
@@ -50,14 +51,6 @@ nav {
   color: var(--chocolate-cosmos);
 }
 
-.pitch {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2em;
-  align-items: center;
-  background-color: var(--honeydew);
-}
-
 .texto__pitch {
   font-family: var(--font-principal);
   font-size: 18x;
@@ -86,6 +79,24 @@ nav {
   font-family: var(--font-principal);
   color: var(--honeydew);
   background-color: var(--black-olive);
+}
+
+.problematica-funcionalidades {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  align-items: center;
+  font-family: var(--font-principal);
+  color: var(--honeydew);
+  background-color: var(--black-olive);
+}
+
+.pitch {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  align-items: center;
+  background-color: var(--honeydew);
 }
 
 .box {
@@ -132,5 +143,9 @@ nav {
 
 .titulo_funcionalidades {
   font-family: var(--font-titulo);
-  padding-top: 40px;
+  padding: 1em;
+}
+
+.conclusao {
+  font-family: var(--font-conclusao);
 }
