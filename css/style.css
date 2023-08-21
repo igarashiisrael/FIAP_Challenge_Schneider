@@ -81,6 +81,12 @@ nav {
   background-color: var(--black-olive);
 }
 
+.problematica2 {
+  font-family: var(--font-principal);
+  color: black;
+  background-color: var(--honeydew);
+}
+
 .problematica-funcionalidades {
   display: flex;
   justify-content: space-evenly;
@@ -120,6 +126,14 @@ nav {
   font-family: var(--font-principal);
   padding: 2em;
   background-color: var(--honeydew);
+}
+
+.footer2 {
+  font-size: 20px;
+  font-family: var(--font-principal);
+  padding: 2em;
+  color: var(--honeydew);
+  background-color: var(--black-olive);
 }
 
 .image-feed {

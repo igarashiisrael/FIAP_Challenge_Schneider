@@ -5,3 +5,11 @@
 .titulo-part {
     font-size: 28px;
 }
+
+.papel {
+    margin: 0 5em 3em 5em ;
+}
+
+.papel__titulo {
+    font-size: 28px;
+}
