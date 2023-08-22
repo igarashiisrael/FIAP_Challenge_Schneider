@@ -121,10 +121,18 @@ nav {
   line-height: 150%;
 }
 
-
 .image-feed {
   padding: 30px;
   max-height: 30em;
+}
+
+.image-feed2 {
+  padding: 30px;
+  max-height: 20em;
+}
+
+.subtitle-feed2 {
+  color: #000;
 }
 
 .texto-problematica {
@@ -149,7 +157,6 @@ nav {
 .conclusao {
   font-family: var(--font-conclusao);
 }
-
 
 .text-reset {
   text-decoration: none;
@@ -177,7 +184,7 @@ nav {
   box-shadow: 0 0 10px var(--verde-fundo);
 }
 
-input[type=text]:focus {
+input[type='text']:focus {
   box-shadow: 0 0 10px var(--verde-fundo);
 }
 
@@ -190,11 +197,11 @@ input.input-email-index:focus {
 }
 
 input.input-email-index {
-  background-color: #EBECEE;
+  background-color: #ebecee;
 }
 
 input.input-email {
-  background-color: #EBECEE;
+  background-color: #ebecee;
 }
 
 input.input-telefone-index:focus {
@@ -202,11 +209,11 @@ input.input-telefone-index:focus {
 }
 
 input.input-telefone-index {
-  background-color: #EBECEE;
+  background-color: #ebecee;
 }
 
 input.input-telefone {
-  background-color: #EBECEE;
+  background-color: #ebecee;
 }
 
 input.input-telefone:focus {
